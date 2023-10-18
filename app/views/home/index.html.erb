@@ -1,5 +1,34 @@
 <h1>Home#index</h1>
 
-<%=
-    
-%>
+<H3>Logged in as:</H3>
+
+<table border=1>
+  <tr>
+    <td>
+      User:
+    </td>
+    <td>
+      <%= current_user.email %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      created since:
+    </td>
+    <td>
+      <%=
+      current_user.created_at 
+      %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      last update:
+    </td>
+    <td>
+      <%= 
+      current_user.updated_at 
+      %>
+    </td>
+  </tr>
+</table>
