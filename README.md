@@ -1,6 +1,6 @@
 # README
 
-Before run the project you should alreade be created a [cliente OAuth ID](https://console.cloud.google.com/apis/credentials?project=sacred-booking-318202)
+Before run the project you should already be created a [cliente OAuth ID](https://console.cloud.google.com/apis/credentials?project=sacred-booking-318202)
 for connect this application
 
 ### To setup the project only Type the following commands 
