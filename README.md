@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Before run the project you should alreade be created a [cliente OAuth ID](https://console.cloud.google.com/apis/credentials?project=sacred-booking-318202)
+for connect this application
 
-Things you may want to cover:
+### To setup the project only Type the following commands 
 
-* Ruby version
+1. export GOOGLE_CLIENT_ID=<HERE YOUR GOOGLE OAUTH CLIENT ID>
+2. export GOOGLE_CLIENT_SECRET=<HERE YOUR GOOGLE OAUTH CLIENT SECRET>
+3. bundle install
+4. rails db:migrate
+5. rails server -p 3000
 
-* System dependencies
+### Further information about devise and google oauth gems
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [Devise](https://github.com/heartcombo/devise)
+* [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
