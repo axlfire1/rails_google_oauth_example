@@ -1,0 +1,22 @@
+:css
+  table, th, td {
+    border: 1px solid;
+  }
+%h1 Home#index
+%h3 Logged in as:
+%table
+  %tr
+    %td
+      user:
+    %td
+      = current_user.email
+  %tr
+    %td
+      created since:
+    %td
+      = current_user.created_at
+  %tr
+    %td
+      last update:
+    %td
+      = current_user.updated_at
